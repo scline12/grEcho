@@ -1,0 +1,14 @@
+{
+    "server.tls.privateKey": "/Users/scline/go/src/github.com/calculi-corp/grpc-testutil/creds/localhost.key.pem",
+    "server.tls.certificate": "/Users/scline/go/src/github.com/calculi-corp/grpc-testutil/creds/localhost.cert.pem",
+    "client.tls.certificate": "/Users/scline/go/src/github.com/calculi-corp/grpc-testutil/creds/localhost.cert.pem",
+    "client.tls.privateKey": "/Users/scline/go/src/github.com/calculi-corp/grpc-testutil/creds/localhost.key.pem",
+    "server.allow_pprof": true,
+    "server.allow_stop": true,
+    "server.exit_delay": 0,
+    "client.maxattempts": 1,
+    "client.timeout_ms": 5000,
+    "client.maxsize_kb": 0,
+    "server.listen.port": 9090,
+    "log.level": "debug"
+}
